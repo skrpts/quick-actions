@@ -1,0 +1,40 @@
+# --- Identity ---
+id: "14154b99-b90c-4d70-b3e9-d674c5ca56fa"
+name: "quick-actions"
+display_name: "Quick Actions"
+description: "Lightweight single-purpose agents for the quick panel — polish, summarise, reply, and explain"
+version: "1.0.0"
+engine: ">=1.0.0"
+
+# --- Attribution ---
+author:
+  name: "skrptiq"
+  url: "https://hub.skrptiq.ai"
+
+licence: "MIT"
+repository: "https://github.com/skrpts/quick-actions"
+
+# --- Discovery (Hub) ---
+category: "shared"
+tags:
+  - "quick-actions"
+  - "productivity"
+  - "utilities"
+
+# --- Security & Access ---
+requires:
+  services:
+    - "llm-service"
+  permissions: []
+  data_handling: []
+
+# --- Contents ---
+contents:
+  skills: 4
+  prompts: 4
+  workflows: 0
+  services: 1
+  sources: 0
+  documents: 0
+  assets: 0
+  total: 9
