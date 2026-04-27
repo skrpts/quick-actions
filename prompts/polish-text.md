@@ -4,6 +4,13 @@ id: run-polish
 title: Run Polish
 description: "Cleans up spelling, grammar, and clarity in any text"
 tags: [Production, Quality]
+inputs:
+  text:
+    label: "Text"
+    description: "The text to polish"
+    example: "Their going to the shops tommorow, but I dont think there going to find what their looking for becuase the store is probaly closed."
+    required: true
+    type: text
 connections:
   - target: polish-text
     type: derived_from

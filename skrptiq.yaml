@@ -3,7 +3,7 @@ id: "14154b99-b90c-4d70-b3e9-d674c5ca56fa"
 name: "quick-actions"
 display_name: "Quick Actions"
 description: "Lightweight single-purpose agents for the quick panel — polish, summarise, reply, and explain"
-version: "1.0.0"
+version: "1.0.1"
 engine: ">=1.0.0"
 
 # --- Attribution ---

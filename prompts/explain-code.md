@@ -4,6 +4,13 @@ id: run-explain-code
 title: Run Explain Code
 description: "Explains what a code snippet does in plain language"
 tags: [Production, Code]
+inputs:
+  code:
+    label: "Code"
+    description: "The code snippet to explain"
+    example: "const debounce = (fn, ms) => { let id; return (...args) => { clearTimeout(id); id = setTimeout(() => fn(...args), ms); }; };"
+    required: true
+    type: text
 connections:
   - target: explain-code
     type: derived_from

@@ -4,6 +4,13 @@ id: run-draft-reply
 title: Run Draft Reply
 description: "Drafts a reply to any message or email"
 tags: [Production, Quality]
+inputs:
+  text:
+    label: "Message"
+    description: "The message you want to reply to"
+    example: "Hi, could you send me the latest project timeline? The client is asking for an update by end of day and I need to include your team's milestones. Also, are we still on track for the beta release next Thursday?"
+    required: true
+    type: text
 connections:
   - target: draft-reply
     type: derived_from

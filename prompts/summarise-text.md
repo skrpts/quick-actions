@@ -4,6 +4,13 @@ id: run-summarise
 title: Run Summarise
 description: "Condenses any text into a brief summary"
 tags: [Production, Quality]
+inputs:
+  text:
+    label: "Text"
+    description: "The text to summarise — any length, any format"
+    example: "We held the Q2 planning meeting on Friday. Attendees: Sarah (Engineering), Mike (Product), Lisa (Design). Key decisions: 1) Ship the new onboarding flow by June 15th. Sarah to lead. 2) Defer the analytics dashboard to Q3 — not enough design capacity. 3) Hire two frontend developers by end of May. Mike to write the job specs. Open question: should we use the existing component library or build custom? Lisa to prototype both approaches by next Friday."
+    required: true
+    type: text
 connections:
   - target: summarise-text
     type: derived_from
