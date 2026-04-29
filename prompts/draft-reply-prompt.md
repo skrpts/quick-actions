@@ -1,7 +1,7 @@
 ---
 type: prompt
-id: run-draft-reply
-title: Run Draft Reply
+id: draft-reply-prompt
+title: Draft Reply
 description: "Drafts a reply to any message or email"
 tags: [Production, Quality]
 inputs:

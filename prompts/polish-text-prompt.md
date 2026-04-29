@@ -1,7 +1,7 @@
 ---
 type: prompt
-id: run-polish
-title: Run Polish
+id: polish-text-prompt
+title: Polish Text
 description: "Cleans up spelling, grammar, and clarity in any text"
 tags: [Production, Quality]
 inputs:

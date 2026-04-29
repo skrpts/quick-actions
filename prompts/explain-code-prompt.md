@@ -1,7 +1,7 @@
 ---
 type: prompt
-id: run-explain-code
-title: Run Explain Code
+id: explain-code-prompt
+title: Explain Code
 description: "Explains what a code snippet does in plain language"
 tags: [Production, Code]
 inputs:

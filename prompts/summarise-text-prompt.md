@@ -1,7 +1,7 @@
 ---
 type: prompt
-id: run-summarise
-title: Run Summarise
+id: summarise-text-prompt
+title: Summarise Text
 description: "Condenses any text into a brief summary"
 tags: [Production, Quality]
 inputs:
