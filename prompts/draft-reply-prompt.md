@@ -12,7 +12,7 @@ inputs:
     required: true
     type: text
 connections:
-  - target: draft-reply
+  - target: draft-reply-quick
     type: derived_from
 metadata:
   output_format: text
